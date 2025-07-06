@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELIX AI - Dialectical Intelligence for Executive Decisions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            padding: 80px 0;
+            text-align: center;
+            background: linear-gradient(180deg, #0a0a0a 0%, #1a1a1a 100%);
+        }
+        
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #1e3a8a 0%, #06b6d4 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .tagline {
+            font-size: 1.5rem;
+            color: #888;
+            margin-bottom: 40px;
+        }
+        
+        .hero-text {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto 40px;
+            color: #ccc;
+        }
+        
+        section {
+            padding: 60px 0;
+            border-bottom: 1px solid #333;
+        }
+        
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #fff;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .feature {
+            background: #1a1a1a;
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid #333;
+            transition: transform 0.3s, border-color 0.3s;
+        }
+        
+        .feature:hover {
+            transform: translateY(-5px);
+            border-color: #06b6d4;
+        }
+        
+        .feature h3 {
+            color: #06b6d4;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+        
+        .tech-section {
+            background: #0f0f0f;
+            padding: 40px;
+            border-radius: 12px;
+            margin: 40px 0;
+            border: 1px solid #222;
+        }
+        
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .tech-item {
+            padding: 15px;
+            background: #1a1a1a;
+            border-radius: 8px;
+            border: 1px solid #333;
+        }
+        
+        .cta {
+            text-align: center;
+            padding: 80px 0;
+            background: linear-gradient(180deg, #1a1a1a 0%, #0a0a0a 100%);
+        }
+        
+        .button {
+            display: inline-block;
+            padding: 15px 40px;
+            background: #1e3a8a;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: background 0.3s;
+            margin: 10px;
+        }
+        
+        .button:hover {
+            background: #2451b3;
+        }
+        
+        .button.secondary {
+            background: transparent;
+            border: 2px solid #1e3a8a;
+        }
+        
+        .button.secondary:hover {
+            background: #1e3a8a;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: #666;
+        }
+        
+        .contact-info {
+            margin-top: 20px;
+            font-size: 1.1rem;
+        }
+        
+        .contact-info a {
+            color: #06b6d4;
+            text-decoration: none;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .tagline {
+                font-size: 1.2rem;
+            }
+            
+            .tech-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>HELIX AI</h1>
+            <p class="tagline">AI That Challenges You to Improve</p>
+            <p class="hero-text">
+                Current LLMs use maximum likelihood estimation to predict tokens, mathematically forcing them toward singular "most probable" answers. This creates false certainty by design. HELIX uses adversarial dialectics to preserve productive tension instead of resolving it.
+            </p>
+        </div>
+    </header>
+
+    <section id="problem">
+        <div class="container">
+            <h2>The Problem</h2>
+            <p>Every AI system today optimizes for convergence, not truth. They literally cannot express genuine uncertainty about complex decisions. When executives ask for strategic advice, they get confident hallucinations, not honest analysis.</p>
+            
+            <p style="margin-top: 20px;">The big AI companies could fix this tomorrow but won't - it would admit their core product is deceptive. False certainty is their business model.</p>
+        </div>
+    </section>
+
+    <section id="solution">
+        <div class="container">
+            <h2>The HELIX Approach</h2>
+            <div class="feature-grid">
+                <div class="feature">
+                    <h3>Adversarial Dialectics</h3>
+                    <p>Two specialized models - Truth and Comfort cores - are prompted to maintain disagreement. They process inputs in parallel, then cross-examine each other's outputs.</p>
+                </div>
+                <div class="feature">
+                    <h3>Preserved Tension</h3>
+                    <p>When cores disagree on critical features with opposite valences, that's signal, not noise. Traditional ensemble methods average away disagreement. We amplify it.</p>
+                </div>
+                <div class="feature">
+                    <h3>Krishna Metrics</h3>
+                    <p>Quantify disagreement across feature importance, rank ordering, and valence. Based on research from Harvard University on measuring AI explanation disagreement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="technical">
+        <div class="container">
+            <h2>Technical Architecture</h2>
+            <div class="tech-section">
+                <p>HELIX uses state-of-the-art language models in a novel configuration designed to maintain productive disagreement:</p>
+                
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <strong>Truth Core:</strong> Claude 3.5 Sonnet for pattern recognition
+                    </div>
+                    <div class="tech-item">
+                        <strong>Comfort Core:</strong> GPT-4 Turbo for contextual understanding
+                    </div>
+                    <div class="tech-item">
+                        <strong>Synthesis:</strong> Mixtral 8x7B for tension preservation
+                    </div>
+                    <div class="tech-item">
+                        <strong>Storage:</strong> Neo4j for dialectical pattern tracking
+                    </div>
+                </div>
+                
+                <p style="margin-top: 20px;">Working code producing non-convergent outputs. Local deployment available - your strategic vulnerabilities never leave your infrastructure.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="business">
+        <div class="container">
+            <h2>Business Model</h2>
+            <div class="feature-grid">
+                <div class="feature">
+                    <h3>Consulting Licenses</h3>
+                    <p>McKinsey, BCG, Deloitte need AI differentiation. €500K-2M annual licenses give their partners dialectical AI that surfaces what clients won't hear elsewhere.</p>
+                </div>
+                <div class="feature">
+                    <h3>Enterprise Deployment</h3>
+                    <p>Fortune 500s run HELIX locally. Their strategic vulnerabilities never leave their servers. €200K installation plus maintenance. Critical infrastructure for honest decision-making.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="cta">
+        <div class="container">
+            <h2>Ready for AI That Admits Uncertainty?</h2>
+            <p style="margin-bottom: 30px; font-size: 1.2rem;">
+                250K euros makes this production-ready. Let's discuss how HELIX can transform executive decision-making.
+            </p>
+            <a href="https://docs.google.com/presentation/d/your-pitch-deck-id" class="button">View Pitch Deck</a>
+            <a href="mailto:kempjake000@gmail.com" class="button secondary">Contact</a>
+            
+            <div class="contact-info">
+                <p>Jacob Kemp, Creator</p>
+                <p>Ex-Military Intelligence</p>
+                <p><a href="mailto:kempjake000@gmail.com">kempjake000@gmail.com</a> | +351 927 824 312</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 HELIX AI. Built in Porto, Portugal.</p>
+        </div>
+    </footer>
+</body>
+</html>
